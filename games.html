@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="瀏覽 Game Wiki 收錄的遊戲，依名稱搜尋或依遊戲類型篩選。">
+  <title>遊戲列表｜Game Wiki</title>
+  <link rel="stylesheet" href="css/style.css"><script src="js/data-fallback.js" defer></script><script src="js/main.js" defer></script><script src="js/games.js" defer></script>
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+  <main class="container page-main">
+    <div class="page-title"><p class="eyebrow">GAME LIBRARY</p><h1>遊戲列表</h1><p>尋找你正在遊玩的作品，或探索新的遊戲世界。</p></div>
+    <section class="filter-panel" aria-label="搜尋與篩選遊戲">
+      <label class="search-box"><span aria-hidden="true">⌕</span><input id="game-search" type="search" placeholder="搜尋遊戲名稱或介紹…" aria-label="搜尋遊戲"></label>
+      <label class="select-label">遊戲類型
+        <select id="genre-filter"><option value="">所有類型</option></select>
+      </label>
+    </section>
+    <p id="game-count" class="result-count" aria-live="polite"></p>
+    <section id="game-list" class="card-grid"><p class="loading-text">正在載入遊戲資料…</p></section>
+  </main>
+  <footer id="site-footer"></footer>
+</body>
+</html>

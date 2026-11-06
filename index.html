@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Game Wiki 遊戲攻略知識庫，整理不同遊戲的介紹、BOSS 攻略、裝備與實用技巧。">
+  <title>Game Wiki｜遊戲攻略知識庫</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/data-fallback.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/home.js" defer></script>
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">YOUR GAME KNOWLEDGE BASE</p>
+        <h1>探索遊戲世界，<br><span>找到你的攻略。</span></h1>
+        <p class="hero-description">從新手指南到深入攻略，將不同遊戲的知識整理在同一個地方。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="games.html">瀏覽遊戲 <span aria-hidden="true">→</span></a>
+          <a class="button button-ghost" href="#latest-guides">查看最新攻略</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Game Wiki 遊戲知識庫主視覺">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-emblem"><span>GW</span><small>GAME WIKI</small></div>
+        <div class="floating-tag tag-top">攻略整理</div>
+        <div class="floating-tag tag-bottom">探索・戰鬥・成長</div>
+      </div>
+    </section>
+
+    <section class="container section-block">
+      <div class="section-heading">
+        <div><p class="eyebrow">BROWSE BY GENRE</p><h2>探索遊戲類型</h2></div>
+        <a class="text-link" href="games.html">所有遊戲 <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="genre-grid">
+        <a class="genre-card" href="games.html?genre=動作"><span class="genre-symbol">⚔</span><strong>動作遊戲</strong><small>戰鬥、關卡與敵人</small></a>
+        <a class="genre-card" href="games.html?genre=角色扮演"><span class="genre-symbol">✦</span><strong>角色扮演</strong><small>角色培養與裝備</small></a>
+        <a class="genre-card" href="games.html?genre=策略"><span class="genre-symbol">▦</span><strong>策略遊戲</strong><small>戰術、陣容與資源</small></a>
+        <a class="genre-card" href="games.html?genre=開放世界"><span class="genre-symbol">◇</span><strong>開放世界</strong><small>探索、收集與任務</small></a>
+        <a class="genre-card" href="games.html?genre=射擊"><span class="genre-symbol">◎</span><strong>射擊遊戲</strong><small>武器、配置與技巧</small></a>
+      </div>
+    </section>
+
+    <section class="container section-block">
+      <div class="section-heading"><div><p class="eyebrow">FEATURED GAMES</p><h2>精選遊戲</h2></div><a class="text-link" href="games.html">查看全部 <span aria-hidden="true">→</span></a></div>
+      <div id="featured-games" class="card-grid"><p class="loading-text">正在載入遊戲資料…</p></div>
+    </section>
+
+    <section id="latest-guides" class="container section-block section-last">
+      <div class="section-heading"><div><p class="eyebrow">LATEST GUIDES</p><h2>最新攻略</h2></div><a class="text-link" href="games.html">探索更多 <span aria-hidden="true">→</span></a></div>
+      <div id="latest-articles" class="article-list"><p class="loading-text">正在載入攻略資料…</p></div>
+    </section>
+  </main>
+  <footer id="site-footer"></footer>
+</body>
+</html>
